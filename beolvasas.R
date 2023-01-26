@@ -7,5 +7,5 @@ for(nr in 2:length(beolvasasok))
 library(xts)
 idő=as.POSIXct(Tes4[,2])
 Tes4.xts=xts(Tes4[,3:5], idő)
-plot(Tes4.xts)
+plot(Tes4.xts, main = "Tés kontroll (4)")
 
